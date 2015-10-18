@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #12192b;
+}
+
+div {
+  border: 1px solid chocolate;
+}
+
+
+/**universal**/
+
+.content {
+  padding: 0 50px;
+  margin: 0 50px;
+}
+
+
+/*top nav style*/
+
+
+.top-nav {
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+
+}
+
+.logo {
+  height: 100px;
+}
+
+/**ig pics**/
+
+.ig-container {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.box {
+  overflow: auto;
+  display: inline-block;
+  width: 33.33333%;
+}
+
+.pic-size {
+  width: 33.33333%;
+
+}
