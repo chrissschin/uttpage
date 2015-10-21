@@ -51,6 +51,7 @@ div {
 }
 
 .box {
+  position: relative;
   overflow: hidden;
   display: inline;
   width: 33.3333333%;
@@ -59,9 +60,30 @@ div {
   padding: 5px;
 }
 
+
 .pic {
   width: 100%;
   height: 100%;
+}
+
+
+.overlay {
+  margin: 5px auto;
+  position:absolute;
+  background-color: #da2e3c;
+  top:0;
+  opacity: 0.915;
+  display:none;
+}
+
+.caption {
+  position:absolute;
+  margin: 0;
+  top: 40%;
+  left:0;
+  padding: 0 50px;
+  color: #fffeff;
+
 }
 
 /*.box:hover {
