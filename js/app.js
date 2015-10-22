@@ -14,13 +14,13 @@ $(document).ready(function(){
 
   //hover over picture and it shows caption
   $("body").on("mouseenter", ".box", function(event){
-    console.log("entered");
-    console.log(event);
-    $(".overlay").fadeIn();
+    console.log($(this));
+    //console.log(event);
+    $(this).find(".overlay").fadeIn(200);
   })
   $("body").on("mouseleave", ".box", function(){
-    console.log("left");
-    $(".overlay").fadeOut();
+    //console.log("left");
+    $(".overlay").fadeOut(200);
   })
 
   //hover of box
